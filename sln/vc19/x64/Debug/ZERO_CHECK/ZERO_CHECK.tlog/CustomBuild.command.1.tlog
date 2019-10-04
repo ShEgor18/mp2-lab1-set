@@ -1,0 +1,10 @@
+^D:\MP2-LAB1-SET\SLN\VC19\CMAKEFILES\3966D1EE98FB8E781E356A7C5488CBFA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/mp2-lab1-set -BD:/mp2-lab1-set/sln/vc19 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/mp2-lab1-set/sln/vc19/set.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
