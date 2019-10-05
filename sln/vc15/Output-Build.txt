@@ -1,0 +1,7 @@
+﻿1>------ Build started: Project: set, Configuration: Debug Win32 ------
+1>  tset.cpp
+1>  set.vcxproj -> Z:\mp2-lab1-set\sln\vc15\lib\Debug\set.lib
+2>------ Build started: Project: test_set, Configuration: Debug Win32 ------
+2>  test_set.vcxproj -> Z:\mp2-lab1-set\sln\vc15\bin\test_set.exe
+2>  test_set.vcxproj -> Z:/mp2-lab1-set/sln/vc15/bin/test_set.pdb (Full PDB)
+========== Build: 2 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========

@@ -1,5 +1,2 @@
-﻿  Building Custom Rule Z:/mp2-lab1-set/src/CMakeLists.txt
-  tbitfield.cpp
-  tset.cpp
-  Generating Code...
+﻿  tset.cpp
   set.vcxproj -> Z:\mp2-lab1-set\sln\vc15\lib\Debug\set.lib
