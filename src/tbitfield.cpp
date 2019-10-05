@@ -173,7 +173,10 @@ istream& operator>>(istream& istr, TBitField& bf) // ввод
 
 ostream& operator<<(ostream& ostr, const TBitField& bf) // вывод
 {
-	for (int i = 0; i < bf.BitLen; i++)
-		ostr << bf.GetBit(i);
+	for (int i = 0; i < bf.GetLength(); i++)
+		if (bf.GetBit(i))
+			ostr << '1';
+		else
+			ostr << '0';
 	return ostr;
 }
