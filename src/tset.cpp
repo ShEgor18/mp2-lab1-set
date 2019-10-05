@@ -119,9 +119,7 @@ istream &operator>>(istream &istr, TSet &s) // ввод
 
 ostream& operator<<(ostream &ostr, const TSet &s) // вывод
 {
-	int i, n;
-	n = s.GetMaxPower();
-	for (i = 0; i<n; i++)
+	for (int i = 0; i<s.GetMaxPower(); i++)
 		if (s.IsMember(i)) ostr << i;
 	return ostr;
 }
