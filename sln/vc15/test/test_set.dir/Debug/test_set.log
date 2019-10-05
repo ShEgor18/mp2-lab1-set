@@ -1,0 +1,7 @@
+﻿  Building Custom Rule Z:/mp2-lab1-set/test/CMakeLists.txt
+  test_main.cpp
+  test_tbitfield.cpp
+  test_tset.cpp
+  Generating Code...
+  test_set.vcxproj -> Z:\mp2-lab1-set\sln\vc15\bin\test_set.exe
+  test_set.vcxproj -> Z:/mp2-lab1-set/sln/vc15/bin/test_set.pdb (Full PDB)
